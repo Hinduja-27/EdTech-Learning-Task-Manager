@@ -40,59 +40,40 @@ The project demonstrates **role-based access**, proper error handling, and clean
 # # Teacher:## -->
 
 Can view all tasks in the system
-
 Assign tasks to any student
-
 Update task status (complete/incomplete)
-
 Delete tasks
-
 Task-view logic: Teachers can filter tasks by student, status, or date to manage assignments efficiently.
 
 ## Student:##
-
 Can only see tasks assigned to them
-
 Can mark tasks as complete
-
 Cannot edit or delete tasks
-
 Cannot view other students’ tasks
 
 ---------
 ##### AI Assistance Disclosure
 
 AI helped with:
-
 Generating React component structure
-
 Creating form validation logic
-
 Structuring README and setup instructions
-
-I implemented or fixed:
+---------
+##I implemented or fixed:
 
 Authentication and JWT-based authorization
-
 Teacher task-view logic
-
 Role-based access control
-
 Error handling and API responses
 
 ## Known Issues ##
 
 Some UI components may not be fully responsive on mobile devices
-
 Email notifications for tasks are not implemented
-
 Real-time task status updates are not available
 ## Suggestions for Improvement
 
 Implement real-time updates with WebSockets
-
 Enhance UI styling using Tailwind CSS or Material-UI
-
 Add task deadlines and notifications for students
-
 Include search and filter functionality for tasks
